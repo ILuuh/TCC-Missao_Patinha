@@ -1,0 +1,92 @@
+nav {
+	background-color: #DA9D6E;
+	padding: 10%;
+}
+
+ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+li a {
+	color:#2A2525;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+
+body{
+	background-color:#EDD4AB;
+	background-repeat: repeat-y;
+	margin: 0;
+	padding: 0;
+	background-image: url("patinha.png");
+}
+
+h1{
+	font-size: 220%;
+	color:#2A2525;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+	text-indent:2px ;
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+	background-color:#F6C7A1 ;
+	border-radius: 30px;
+	width: 140px;
+	height: 50px;
+	border:none;
+	color:#2A2525;
+	font-size: 20px;
+	text-decoration:none;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+
+}
+
+div{
+	
+	display: inline-block;
+}
+
+#a{
+	margin:80px ;
+	height: 900px; ;
+	width: 1000px;
+	background-color:#EDD4AB;
+}
+
+#b{ 
+	margin:65px ;
+	height: 800px;
+	width: 200px; ;
+	background-color: #EDD4AB;
+}
+
+h2{
+	margin: 10px;
+	color:#2A2525;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.conteudo {
+	display: block; 
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+

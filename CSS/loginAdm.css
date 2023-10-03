@@ -1,0 +1,56 @@
+body{
+    background-color: #DA9D6E;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+ padding: 50px;
+}
+
+H1{
+    font-size: 220%;
+	color:#2A2525;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+div{
+    background-color: #EDD4AB;
+    padding: 40px;
+    background-repeat: repeat-x;
+    background-image: url("patinha2.png");
+}
+button{
+	background-color:#F6C7A1 ;
+	border-radius: 30px;
+	width: 140px;
+	height: 50px;
+	border:none;
+	color:#2A2525;
+	font-size: 20px;
+	text-decoration:none;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+
+}
+
+p{
+   padding: 5px;
+    font-size: 15px;
+    color: #7B6969;
+    text-align: center;
+}
+
+input{
+    background-color: #FCF6DB;
+	border-radius: 10px;
+	width: 250px;
+	height: 30px;
+	border:solid #EDD4AB;
+	color:#7B6969;
+	font-size: 18px;
+	text-decoration:none;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+}
