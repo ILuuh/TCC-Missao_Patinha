@@ -41,6 +41,23 @@
         <input type="password" name="senha" value="<?php echo $a['senha']; ?>">
         <br><br>
 
+        <label for="telefone">Telefone: </label><br>
+        <input type="text" name="telefone" value="<?php echo $a['telefone']; ?>">
+        <br><br>
+
+        <label for="nomeAssoci">Nome da Associação: </label><br>
+        <input type="text" name="nomeAssoci" value="<?php echo $a['nomeAssoci']; ?>">
+        <br><br>
+
+        
+        <label for="redeSocial">Rede Social: </label><br>
+        <input type="text" name="redeSocial" value="<?php echo $a['redeSocial']; ?>">
+        <br><br>
+
+        <label for="presidente">Nome do(a) Presidente: </label><br>
+        <input type="text" name="senha" value="<?php echo $a['presidente']; ?>">
+        <br><br>
+
         <button> Salvar </button>
 
     </form>

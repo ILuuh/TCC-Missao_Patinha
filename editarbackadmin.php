@@ -4,13 +4,17 @@ $cnpj = $_POST['cnpj'];
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 $senha = $_POST['senha'];
-
+$telefone = $_POST['telefone'];
+$nomeAssoci = $_POST['nomeAssoci'];
+$redeSocial = $_POST['redeSocial'];
+$presidente = $_POST['presidente'];
 
 //Conectando ao BD
 include_once("conexao.php");
 
 //Comando sql para atualizar a tabela
-$stmt = "update admin set nome = '$nome', email = '$email', senha = $senha where cnpj = '$cnpj';";
+$stmt = "update admin set nome = '$nome', email = '$email', senha = '$senha', telefone = '$telefone', nomeAssoci = '$nomeAssoci', 
+redeSocial = '$redeSocial', presidente = '$presidente' where cnpj = '$cnpj';";
 
 //Executando o comando sql
 if(mysqli_query($conn,$stmt)){
