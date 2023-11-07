@@ -14,7 +14,7 @@ mysqli_stmt_store_result($stmtlogin);
 
 if(mysqli_stmt_num_rows($stmtlogin)>0){
     session_start();
-    $_SESSION ['usuario'] =$usuario;
+    $_SESSION['usuario'] =$usuario;
     header ("Location: telaexibir.php"); 
 } else {
     echo"Acesso negado <br>";

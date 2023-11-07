@@ -1,6 +1,19 @@
+body{
+	background-color: #EDD4AB;
+	background-repeat: repeat-y;
+	margin: 0;
+	padding: 0;
+	background-image: url("patinha.png");
+}
+
 nav {
 	background-color: #DA9D6E;
-	padding: 10%;
+	padding: 2%;
+	height: 15%;
+	-webkit-box-shadow: 5px 5px 37px 17px #8d6343; 
+	box-shadow: 0px 0px 10px 2px #8d6343;
+	position: fixed;
+	width: 100%;
 }
 
 ul {
@@ -19,19 +32,14 @@ li a {
 	color:#2A2525;
 	font-size: 20px;
 	text-decoration: none;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
-body{
-	background-color:#EDD4AB;
-	background-repeat: repeat-y;
-	margin: 0;
-	padding: 0;
-	background-image: url("patinha.png");
-}
+
 
 h1{
+	margin-top: 20%;
 	font-size: 220%;
 	color:#2A2525;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -41,7 +49,7 @@ p{
 	text-indent:2px ;
 	text-align: justify;
 	font-size: 20px;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 button{
@@ -53,9 +61,13 @@ button{
 	color:#2A2525;
 	font-size: 20px;
 	text-decoration:none;
-	font-family: 'Courier New', Courier, monospace;
-	font-weight: bold;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	-webkit-box-shadow: 5px 5px 37px 17px #8d6343; 
+	box-shadow: 0px 0px 10px 2px #8d6343;
+}
 
+hr{
+	background-color: #2A2525;
 }
 
 div{
@@ -64,20 +76,21 @@ div{
 }
 
 #a{
-	margin:80px ;
-	height: 900px; ;
-	width: 1000px;
+
+margin-left: 5%;	margin:80px ;
+	height: 30%;
+	width: 50%;
 	background-color:#EDD4AB;
 }
 
 #b{ 
 	margin:65px ;
-	height: 800px;
-	width: 200px; ;
+	height: 10%;
+	width: 20%;
 	background-color: #EDD4AB;
 }
 
-h2{
+h3{
 	margin: 10px;
 	color:#2A2525;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -90,3 +103,227 @@ h2{
     margin-right: auto; 
 }
 
+a{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,;
+	color: #2A2525;
+}
+
+.image{
+	margin-top: 60%;
+}
+
+.butexibir{
+	background-color: #DA9D6E;
+	border-radius: 30px;
+	width: 140px;
+	height: 50px;
+	border:none;
+	color:#2A2525;
+	font-size: 20px;
+	text-decoration:none;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 10px;
+}
+
+.indexUser{
+	color:#2A2525;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: 5%;
+}
+
+.imgUser{
+	border: ridge #F6C7A1;
+}
+
+.divBusca{
+	background-color:#EDD4AB;
+	border:none;
+	border-radius:15px;
+	display: block; 
+    width: 50%; 
+    margin-left: 40%;
+	margin-top: 30%;
+   
+}
+
+
+.imgBusca{
+	width: 10%;
+	height: 3%;
+}
+
+.pesquisar{
+	font-size: 220%;
+	color:#2A2525;
+	display: block; 
+    border-radius: 10px;
+	width: 100%;
+	height: 30px; 
+    margin-left: auto;
+    margin-right: left;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.divmenu{
+	position: fixed;
+	width: 75%;
+	display: inline-block; 
+	margin-left: none;
+    margin-right: right;
+}
+
+.divform{
+	width: 150px;
+	display: inline-block; 
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.divlogo{
+	display: inline-block; 
+	margin-left: left;
+    margin-right: auto;
+	height: 5%;
+}
+
+.intbuscar{ 
+	background-color: transparent;
+	background-image: url("lupa.png");
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 40px;
+	display: block;  
+    margin-left: auto;
+    margin-right: auto;
+	border: transparent;
+}
+
+ /* carrosel de imagens */
+
+.propaganda{
+	-webkit-box-shadow: 5px 5px 37px 17px #8d6343; 
+	box-shadow: 0px 0px 10px 2px #8d6343;
+	width: 100%;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+input{
+    background-color: #FCF6DB;
+	border-radius: 10px;
+	width: 100%;
+	height: 30px;
+	border:solid #FCF6DB;
+	color:#7B6969;
+	font-size: 18px;
+	text-decoration:none;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: none;
+	padding: 2px;
+	margin: 10px;
+	-webkit-box-shadow: 5px 5px 37px 17px #af8b70; 
+	box-shadow: 0px 0px 10px 2px #af8b70;
+	display: block; 
+    margin-left: 40%;
+	margin-top: 30%;
+}
+
+.busca{
+	background-color:#EDD4AB;
+	border:none;
+	border-radius:15px;
+	margin-top: 5%;
+	width:  65%;
+	margin-left: 0;
+	margin-bottom: 10%;
+}
+
+.ongs{
+	margin-left: 40%;
+}
+
+table{
+	border: transparent;
+	margin-bottom: 15%;
+}
+
+.container{
+	margin-top: 50%;
+}
+
+.butA{
+	margin-top: 2%;
+	margin-left: 20%;
+	display: inline-block;
+	background-image: none;
+	background-color: #e6a370 ;
+	border-radius: 30px;
+	width: 140px;
+	height: 50px;
+	border:none;
+	color:#2A2525;
+	font-size: 20px;
+	text-decoration:none;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	-webkit-box-shadow: 5px 5px 37px 17px #8d6343; 
+	box-shadow: 0px 0px 10px 2px #8d6343;
+}
+
+.butB{
+	margin-left: 5%;
+	display: inline-block;
+	background-image: none;
+	background-color: #e6a370 ;
+	border-radius: 30px;
+	width: 140px;
+	height: 50px;
+	border:none;
+	color:#2A2525;
+	font-size: 20px;
+	text-decoration:none;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	-webkit-box-shadow: 5px 5px 37px 17px #8d6343; 
+	box-shadow: 0px 0px 10px 2px #8d6343;
+}
+
+.barra{
+	margin-left: 60%;
+}
+
+.divbut{
+	width: 100%;
+	margin-left: 50%;
+	margin-top: 2%;
+}
+
+.Qpropaganda{
+	-webkit-box-shadow: 5px 5px 37px 17px #8d6343; 
+	box-shadow: 0px 0px 10px 2px #8d6343;
+	width: 100%;
+	margin-left: 10%;
+	margin-top: 5%;
+} 
+
+.q{
+	text-align: center;
+	margin: 10px;
+	color:#2A2525;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: 20%;
+}
+.amor{
+	text-align: center;
+}
+
+.logong{
+	-webkit-box-shadow: 5px 5px 37px 17px #8d6343; 
+	box-shadow: 0px 0px 10px 2px #8d6343;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 5%;
+
+}

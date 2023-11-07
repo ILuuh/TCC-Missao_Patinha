@@ -14,7 +14,7 @@ mysqli_stmt_store_result($stmtlogin);
 
 if(mysqli_stmt_num_rows($stmtlogin)>0){
     session_start();
-    $_SESSION ['admin'] =$cnpj;
+    $_SESSION['admin'] =$cnpj;
     header ("Location: telaexibiradmin.php"); 
 } else {
     echo"Acesso negado <br>";

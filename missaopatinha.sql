@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 03-Out-2023 às 21:26
--- Versão do servidor: 10.4.20-MariaDB
--- versão do PHP: 8.0.9
+-- Tempo de geração: 27/10/2023 às 04:43
+-- Versão do servidor: 10.4.28-MariaDB
+-- Versão do PHP: 8.1.17
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,27 +24,32 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `admin`
+-- Estrutura para tabela `admin`
 --
 
 CREATE TABLE `admin` (
   `cnpj` varchar(18) NOT NULL,
   `nome` varchar(80) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `senha` varchar(8) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `senha` varchar(8) NOT NULL,
+  `telefone` varchar(20) NOT NULL,
+  `nomeAssoci` varchar(100) NOT NULL,
+  `redeSocial` varchar(50) DEFAULT NULL,
+  `presidente` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Extraindo dados da tabela `admin`
+-- Despejando dados para a tabela `admin`
 --
 
-INSERT INTO `admin` (`cnpj`, `nome`, `email`, `senha`) VALUES
-('03.007.331/0001-41', 'Mercado Livre', 'mercado@gmail.com', '123');
+INSERT INTO `admin` (`cnpj`, `nome`, `email`, `senha`, `telefone`, `nomeAssoci`, `redeSocial`, `presidente`) VALUES
+('03.007.331/0001-41', 'Amor Sem Raça', 'amorsemraça@gmail.com', '123', '(16)99757-5344', 'Associação Protetora e Cuidadora de animais Santa clara', '@Amor_sem_raça', 'Maria Solange Sola'),
+('28.078.872/0001-91', 'Chenling', 'chenling@gmail.com', '123', '(16)993165846', 'CHEN LING MT 2017 COMERCIO DE VARIEDADES LTDA', '@chenlingMatão', 'Retardado Qualquer Coisa ');
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `usuario`
+-- Estrutura para tabela `usuario`
 --
 
 CREATE TABLE `usuario` (
@@ -52,13 +57,14 @@ CREATE TABLE `usuario` (
   `nome` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
   `senha` varchar(8) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
--- Extraindo dados da tabela `usuario`
+-- Despejando dados para a tabela `usuario`
 --
 
 INSERT INTO `usuario` (`nomeUser`, `nome`, `email`, `senha`) VALUES
+('isaac', 'isaac', 'isaac@gamil.com', '456'),
 ('Luizinho', 'Luiz Gustavo', 'luiz@gmail.com', '123');
 
 --
@@ -66,13 +72,13 @@ INSERT INTO `usuario` (`nomeUser`, `nome`, `email`, `senha`) VALUES
 --
 
 --
--- Índices para tabela `admin`
+-- Índices de tabela `admin`
 --
 ALTER TABLE `admin`
   ADD PRIMARY KEY (`cnpj`);
 
 --
--- Índices para tabela `usuario`
+-- Índices de tabela `usuario`
 --
 ALTER TABLE `usuario`
   ADD PRIMARY KEY (`nomeUser`);

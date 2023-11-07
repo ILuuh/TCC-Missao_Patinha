@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../helpet/CSS/loginAdm.css">
+    <link rel="stylesheet" href="../missaopatinha/CSS/loginAdm.css">
     <title>CRUD - Tela de edição</title>
 </head>
 <body>
@@ -19,26 +19,32 @@
         //Pegando o resultado da consulta
         $a = mysqli_fetch_assoc($resultado);
     ?>
+
+<div class="editar">
+
     <form name="editar" method="post" action="editarbackadmin.php">
+
+    <br><br>
         <label for="cnpj">CNPJ: </label><br>
         <input type="text" name="cnpj" value="<?php echo $a['cnpj']; ?>" readonly>
-        <p></p>
+        <br><br>
 
         <label for="nome">Nome: </label><br>
         <input type="text" name="nome" value="<?php echo $a['nome']; ?>" autofocus>
-        <p></p>
+        <br><br>
 
         <label for="email">Email: </label><br>
         <input type="text" name="email" value="<?php echo $a['email']; ?>">
-        <p></p>
+        <br><br>
 
         <label for="senha">Senha: </label><br>
         <input type="password" name="senha" value="<?php echo $a['senha']; ?>">
-        <p></p>
+        <br><br>
 
-        <input type="submit" value="Salvar Alterações">
+        <button> Salvar </button>
 
     </form>
+    </div>
 <?php
     mysqli_close($conn);
 ?>

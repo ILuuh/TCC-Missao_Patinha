@@ -104,3 +104,5 @@ function validarSenha(senha) {
       return false; // A senha não atende a todos os requisitos
     }
   }
+
+  $('.carousel').carousel()
