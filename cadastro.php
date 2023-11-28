@@ -10,7 +10,7 @@ $senha = $_POST['senha'];
 include_once("conexao.php");
 
 //Comando Sql de Insert
-$stmt = "insert into usuario values('$nome','$nomeUser','$email','$senha');";
+$stmt = "insert into usuario values('$nomeUser','$nome','$email','$senha');";
 
 //Executando o comando sql
 if(mysqli_query($conn,$stmt)){

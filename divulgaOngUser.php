@@ -24,10 +24,10 @@
 
  <div class="divmenu">
     <ul class="menu_ul">
-       <li><a href="indexAdmin.php"><button>INÍCIO</button></a></li>
-       <li ><a href="ongsAdmin.php"> <button><Label>ONG'S</Label></button></a></li>
-       <li><a href="divulgaOngAdmin.php"><button>NOVIDADE</button></a></li>
-       <li><button><a href="telaexibirAdmin.php">PERFIL</a></button></li>
+       <li><a href="indexUser.php"><button>INÍCIO</button></a></li>
+       <li ><a href="ongsUser.php"> <button><Label>ONG'S</Label></button></a></li>
+       <li><a href="divulgaOngUser.php"><button>NOVIDADE</button></a></li>
+       <li><button><a href="telaexibir.php">PERFIL</a></button></li>
      </ul> 
 </div>
 
@@ -133,13 +133,11 @@
 
 <br><br><br>
 
-<img src="../missaopatinha/imagem/quadrado2.png" class="Qpropaganda">
+<img src="../missaopatinha/imagem/quadrado7.png" class="Qpropaganda">
 
    <br>
 
-<h3 class="q"> Venha adotar um PET!</h3>
-
-<br><br><br>
+<h3 class="q">A saúde dp seu pet é importante.</h3>
 
 <img src="../missaopatinha/imagem/quadrado6.png" class="Qpropaganda">
 
@@ -149,17 +147,13 @@
 
 <br><br><br>
 
-<img src="../missaopatinha/imagem/quadrado7.png" class="Qpropaganda">
-
-   <br>
-
-<h3 class="q">A saúde dp seu pet é importante.</h3>
 
 
 
 
 
-<br><br><br>
+
+
      
   
   </section>

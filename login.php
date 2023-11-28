@@ -29,6 +29,10 @@
 
         <button class="butlogin">ENTRAR</button>
 
+        <br>
+
+        <button class="butlogin"><a href="index.php">INÍCIO</a></button>
+
 
         <p>Ainda não tem cadastro? Cadastre-se <a href="telacadastro.php">aqui</a></p>
         <p>Se for administrador clique

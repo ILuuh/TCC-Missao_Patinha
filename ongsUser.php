@@ -24,9 +24,9 @@
  <div class="divmenu">
     <ul class="menu_ul">
     <li><a href="indexUser.php"><button>INÍCIO</button></a></li>
-       <li ><a href="ongs.php"> <button><Label>ONG'S</Label></button></a></li>
-       <li><a href="divulgaOng.php"><button>NOVIDADE</button></a></li>
-       <li><a href="login.php"><button>LOGIN</button></a></li>
+       <li ><a href="ongsAdmin.php"> <button><Label>ONG'S</Label></button></a></li>
+       <li><a href="divulgaOngUser.php"><button>NOVIDADE</button></a></li>
+       <li><a href="telaexibirUser.php"><button>PERFIL</button></a></li>
      </ul> 
 </div>
 
@@ -121,7 +121,7 @@
                 <p>".$a['redeSocial']."</p>
                 <h3>Presidente</h3>
                 <p>".$a['presidente']."</p>";
-                echo "<a href='ong1.php'><button class='butexibir'>CONHECER</button></a>";
+                echo "<a href='ong1User.php'><button class='butexibir'>CONHECER</button></a>";
                 echo "<hr>";
             }
         }else{

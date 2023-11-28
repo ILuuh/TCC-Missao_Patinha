@@ -23,10 +23,10 @@
 
  <div class="divmenu">
     <ul class="menu_ul">
-    <li><a href="index.php"><button>INÍCIO</button></a></li>
-       <li ><a href="ongs.php"> <button><Label>ONG'S</Label></button></a></li>
-       <li><a href="divulgaOng.php"><button>NOVIDADE</button></a></li>
-       <li><a href="login.php"><button>LOGIN</button></a></li>
+    <li><a href="indexUser.php"><button>INÍCIO</button></a></li>
+       <li ><a href="ongsUser.php"> <button><Label>ONG'S</Label></button></a></li>
+       <li><a href="divulgaOngUser.php"><button>NOVIDADE</button></a></li>
+       <li><a href="telaexibirUser.php"><button>PERFIL</button></a></li>
      </ul> 
 </div>
 
@@ -74,7 +74,7 @@ ajudar mas, atualmente, as espécies que mais atendemos são cães, gatos e cava
 
 
 
- <a href="divulgaOng.php"><button class="q">Saber mais</button></a>
+ <a href="divulgaOngUser.php"><button class="q">Saber mais</button></a>
 
  <br><br><br>
 
@@ -84,7 +84,7 @@ ajudar mas, atualmente, as espécies que mais atendemos são cães, gatos e cava
 
 <h3 class="q"> Venha adotar um PET!</h3>
 
- <a href="divulgaOng.php"><button class="q">Saber mais</button></a>
+ <a href="divulgaOngUser.php"><button class="q">Saber mais</button></a>
 
  <br><br><br>
 

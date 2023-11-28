@@ -31,8 +31,8 @@ if(!$_SESSION['usuario']){
  <div class="divmenu">
     <ul class="menu_ul">
        <li><a href="indexUser.php"><button>INÍCIO</button></a></li>
-       <li ><a href="ongs.php"> <button><Label>ONG'S</Label></button></a></li>
-       <li><a href="divulgaOng.php"><button>NOVIDADE</button></a></li>
+       <li ><a href="ongsAdmin.php"> <button><Label>ONG'S</Label></button></a></li>
+       <li><a href="divulgaOngUser.php"><button>NOVIDADE</button></a></li>
        <li><button><a href="logout.php">SAIR</a></button></li>
      </ul> 
 </div>

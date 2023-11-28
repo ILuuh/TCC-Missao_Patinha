@@ -20,6 +20,10 @@
     <label for="senha">Senha:</label><br>
     <input type="password" name="senha" required>
     <button class="butlogin"> Acessar</button>
+    
+    <br>
+
+    <button class="butlogin"><a href="index.php">Início</a></button>
 
     <p>Ainda não tem cadastro? <br>Cadastre-se <a href="telacadastroadmin.php">aqui</a></p>
 

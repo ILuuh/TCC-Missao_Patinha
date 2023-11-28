@@ -1,10 +1,3 @@
-<?php
-session_start();
-if(!$_SESSION['admin']){
-    header("location:loginAdmin.php?error=true");
-}
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -31,10 +24,10 @@ if(!$_SESSION['admin']){
 
  <div class="divmenu">
     <ul class="menu_ul">
-       <li><a href="indexAdmin.php"><button>INÍCIO</button></a></li>
-       <li ><a href="ongsAdmin.php"> <button><Label>ONG'S</Label></button></a></li>
-       <li><a href="divulgaOngAdmin.php"><button>NOVIDADE</button></a></li>
-       <li><a href="telaexibirAdmin.php"><button>PERFIL</button></a></li>
+       <li><a href="index.php"><button>INÍCIO</button></a></li>
+       <li ><a href="ongs.php"> <button><Label>ONG'S</Label></button></a></li>
+       <li><a href="divulgaOng.php"><button>NOVIDADE</button></a></li>
+       <li><button><a href="login.php">LOGIN</a></button></li>
      </ul> 
 </div>
 
@@ -66,7 +59,6 @@ que abrigam, as formas de doação e de voluntariado, contribuindo para o trabal
 mais respeito aos animais. Por isso, convidamos você a fazer parte da Missão Patinha e ajudar a
 transformar a vida dos animais abandonados e maltratados. Aqui você tem as informações necessárias
 para entrar em contato com a ONG e se tornar um voluntário.</p>
-
 
      <br>
 
@@ -110,7 +102,7 @@ para entrar em contato com a ONG e se tornar um voluntário.</p>
 
 
 
- <a href="divulgaOngAdmin.php"><button class="q">Saber mais</button></a>
+ <a href="divulgaOng.php"><button class="q">Saber mais</button></a>
 
  <br><br><br>
 
@@ -120,7 +112,7 @@ para entrar em contato com a ONG e se tornar um voluntário.</p>
 
 <h3 class="q"> Venha adotar um PET!</h3>
 
- <a href="divulgaOngAdmin.php"><button class="q">Saber mais</button></a>
+ <a href="divulgaOng.php"><button class="q">Saber mais</button></a>
 
  <br><br><br>
 

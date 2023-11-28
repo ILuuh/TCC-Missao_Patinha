@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(!$_SESSION['usuario']){
+    header("location:login.php?error=true");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -25,8 +32,8 @@
  <div class="divmenu">
     <ul class="menu_ul">
        <li><a href="indexUser.php"><button>INÍCIO</button></a></li>
-       <li ><a href="ongs.php"> <button><Label>ONG'S</Label></button></a></li>
-       <li><a href="divulgaOng.php"><button>NOVIDADE</button></a></li>
+       <li ><a href="ongsUser.php"> <button><Label>ONG'S</Label></button></a></li>
+       <li><a href="divulgaOngUser.php"><button>NOVIDADE</button></a></li>
        <li><button><a href="telaexibir.php">PERFIL</a></button></li>
      </ul> 
 </div>
@@ -102,7 +109,7 @@ para entrar em contato com a ONG e se tornar um voluntário.</p>
 
 
 
- <a href="divulgaOng.php"><button class="q">Saber mais</button></a>
+ <a href="divulgaOngUser.php"><button class="q">Saber mais</button></a>
 
  <br><br><br>
 
@@ -112,7 +119,7 @@ para entrar em contato com a ONG e se tornar um voluntário.</p>
 
 <h3 class="q"> Venha adotar um PET!</h3>
 
- <a href="divulgaOng.php"><button class="q">Saber mais</button></a>
+ <a href="divulgaOngUser.php"><button class="q">Saber mais</button></a>
 
  <br><br><br>
 

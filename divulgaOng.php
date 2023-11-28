@@ -24,10 +24,10 @@
 
  <div class="divmenu">
     <ul class="menu_ul">
-       <li><a href="indexUser.php"><button>INÍCIO</button></a></li>
+       <li><a href="index.php"><button>INÍCIO</button></a></li>
        <li ><a href="ongs.php"> <button><Label>ONG'S</Label></button></a></li>
        <li><a href="divulgaOng.php"><button>NOVIDADE</button></a></li>
-       <li><button><a href="telaexibir.php">PERFIL</a></button></li>
+       <li><button><a href="login.php">LOGIN</a></button></li>
      </ul> 
 </div>
 
